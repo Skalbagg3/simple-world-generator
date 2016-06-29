@@ -1,7 +1,8 @@
 # Simple-world-generator
 
 A simple world generator that combines a Simplex Noise Algorithm (made by Stefan Gustavsson)
-and the Slick2D & LWJGL library to draw a 2D tile map.
+and the Slick2D & LWJGL library to draw a 2D tile map. The 32x32 tiles are grouped into 500x500 chunks
+and are only rendered while within the screen to save memory.
 
 
 # Necessary libraries:
